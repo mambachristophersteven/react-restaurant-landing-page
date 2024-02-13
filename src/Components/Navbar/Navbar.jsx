@@ -9,12 +9,12 @@ const Navbar = () => {
         </div>
         <div className="nav-menu">
             <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">testimonials</a></li>
-                <li><a href="#">contact</a></li>
-                <li><a href="#">cart</a></li>
-                <li><a href="#"><button>booking now</button></a></li>
+                <li>home</li>
+                <li>about</li>
+                <li>testimonials</li>
+                <li>contact</li>
+                <li>cart</li>
+                <li><button>booking now</button></li>
             </ul>
         </div>
     </div>
