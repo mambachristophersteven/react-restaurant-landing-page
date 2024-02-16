@@ -19,8 +19,18 @@
     list-style: none;
     border: 2px solid blue;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-menu ul li{
     font-size: 21px;
+}
+.nav-menu ul li button{
+    background: #fff;
+    border: none;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 72px;
+    font-size: 21px;
+    width: 200px;
 }
