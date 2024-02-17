@@ -1,0 +1,17 @@
+.button button{
+    width: 280px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-transform: capitalize;
+    background: var(--primary);
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 25px;
+    font-family: monBold;
+    cursor: pointer;
+}
