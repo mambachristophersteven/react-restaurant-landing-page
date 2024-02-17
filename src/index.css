@@ -19,6 +19,14 @@
   src: url(../src/Assets/ReemKufi-Medium.ttf);
 }
 
+:root{
+  --primary: #FE9E0D;
+  --nav-text: #373737;
+  --main-text: #4C4C4C;
+  --small-text: #828282;
+  --background: #F6F6F6;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -26,6 +34,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   overflow: hidden;
+  background-color: var(--background);
   
 }
 

@@ -1,5 +1,4 @@
 .navbar{
-    border: 2px dotted red;
     width: 80%;
     display: flex;
     align-items: center;
@@ -9,20 +8,25 @@
 
 .logo-text{
     font-size: 45px;
+    font-family: reemMedium;
+    color: var(--primary);
 }
 
 .nav-menu{
-    width: 56%;
+    width: 55%;
 }
 .nav-menu ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
+    text-transform: capitalize;
 }
 
 .nav-menu ul li{
     font-size: 21px;
+    font-family: monBold;
+    color: var(--nav-text);
 }
 .nav-menu ul li button{
     background: #fff;
@@ -31,4 +35,7 @@
     border-radius: 72px;
     font-size: 21px;
     width: 200px;
+    color: var(--nav-text);
+    font-family: monBold;
+    text-transform: capitalize;
 }
