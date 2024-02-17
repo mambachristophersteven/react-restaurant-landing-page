@@ -1,11 +1,12 @@
 .app{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 150px;
+  /* justify-content: space-between; */
   width: 100vw;
   min-height: 100vh;
   border: 2px solid blue;
-  padding: 0px 30px;
+  padding: 0px 0px;
   align-items: center;
 }
 
