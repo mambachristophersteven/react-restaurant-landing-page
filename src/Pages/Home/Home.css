@@ -2,7 +2,7 @@
     border: 2px solid red;
     width: 80%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -10,12 +10,25 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 48px;
+}
+
+.home-heading{
+    font-size: 60px;
+    font-family: monBold;
+    color: var(--main-text);
+    border: 2px solid red;
+}
+
+.home-text{
+    font-size: 25px;
+    font-family: monSemi;
+    color: var(--small-text);
 }
 
 .right{
     flex: 1;
     position: relative;
-    border: 2px solid blue;
 }
 
 .right img{

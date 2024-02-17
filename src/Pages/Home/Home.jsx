@@ -9,7 +9,7 @@ const Home = () => {
     <div className='home'>
         <HomeBanner />
         <div className="left">
-            <p className="home-heading">Your Favourite Food Delivered Hot & Fresh</p>
+            <p className="home-heading">Your Favourite Food Delivered Hot & <br /> Fresh</p>
             <p className="home-text">Healthy switcher chefs do all the prep work, like  peeding, chopping & marinating, so you can cook a fresh food.</p>
             <Button />
         </div>
