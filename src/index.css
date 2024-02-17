@@ -1,3 +1,24 @@
+@font-face {
+  font-family: monBold;
+  src: url(../src/Assets/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: monSemi;
+  src: url(../src/Assets/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: monMedium;
+  src: url(../src/Assets/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: reemBold;
+  src: url(../src/Assets/ReemKufi-Bold.ttf);
+}
+@font-face {
+  font-family: reemMedium;
+  src: url(../src/Assets/ReemKufi-Medium.ttf);
+}
+
 body {
   margin: 0;
   padding: 0;
