@@ -6,7 +6,7 @@ import home_banner from '../../Assets/homepage-image.png'
 
 const HomeSection = () => {
   return (
-    <div className='home'>
+    <div className='home-section'>
       <HomeBanner />
       <div className="left">
           <p className="home-heading">Your Favourite Food Delivered Hot & <br /> Fresh</p>
