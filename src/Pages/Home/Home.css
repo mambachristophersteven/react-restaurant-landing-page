@@ -17,13 +17,13 @@
     font-size: 60px;
     font-family: monBold;
     color: var(--main-text);
-    border: 2px solid red;
 }
 
 .home-text{
     font-size: 25px;
     font-family: monSemi;
     color: var(--small-text);
+    width: 80%;
 }
 
 .right{
