@@ -1,0 +1,12 @@
+.work-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.section-header{
+    text-transform: capitalize;
+}
