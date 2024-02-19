@@ -35,10 +35,11 @@
     color: var(--main-text);
 }
 
-.section-text{
+.about-section .section-text{
     font-size: 25px;
     color: var(--small-text);
     font-family: monSemi;
+    text-align: left;
 }
 
 .buttons{

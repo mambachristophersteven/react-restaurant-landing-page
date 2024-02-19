@@ -13,4 +13,7 @@
 }
 .section-text{
     text-align: center;
+    font-size: 25px;
+    color: var(--small-text);
+    font-family: monSemi;
 }
