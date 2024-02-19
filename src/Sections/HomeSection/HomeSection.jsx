@@ -3,6 +3,8 @@ import './HomeSection.css'
 import HomeBanner from '../../Components/HomeBanner/HomeBanner'
 import Button from '../../Components/Button/Button'
 import home_banner from '../../Assets/homepage-image.png'
+import arrow from '../../Assets/arrow.svg'
+
 
 const HomeSection = () => {
   return (
@@ -11,7 +13,7 @@ const HomeSection = () => {
       <div className="left">
           <p className="home-heading">Your Favourite Food Delivered Hot & <br /> Fresh</p>
           <p className="home-text">Healthy switcher chefs do all the prep work, like  peeding, chopping & marinating, so you can cook a fresh food.</p>
-          <Button />
+          <Button content = 'order now' image ={arrow} />
       </div>
       <div className="right">
           <img src={home_banner} alt="" />

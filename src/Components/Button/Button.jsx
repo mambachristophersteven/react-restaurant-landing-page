@@ -1,12 +1,11 @@
 import React from 'react'
 import './Button.css'
-import arrow from '../../Assets/arrow.svg'
-const Button = () => {
+const Button = (props) => {
   return (
     <div className='button'>
         <button>
-            <p>order now</p>
-            <img src={arrow} alt="" />
+            <p>{props.content}</p>
+            <img src={props.image} alt="" />
         </button>
     </div>
   )
