@@ -1,4 +1,4 @@
-button{
+.button button{
     width: 280px;
     display: flex;
     padding: 5px;
@@ -14,4 +14,8 @@ button{
     font-size: 25px;
     font-family: monBold;
     cursor: pointer;
+}
+
+.button button img{
+    width: 30px;
 }
