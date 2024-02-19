@@ -1,0 +1,25 @@
+.testimo-card{
+    width: 54vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    background: var(--white);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.content-text{
+    font-family: monSemi;
+    font-size: 25px;
+    color: var(--minor-text);
+    width: 70%;
+}
+
+.name{
+    font-family: monSemi;
+    font-size: 30px;
+    color: var(--name-text);
+    text-transform: capitalize;
+}

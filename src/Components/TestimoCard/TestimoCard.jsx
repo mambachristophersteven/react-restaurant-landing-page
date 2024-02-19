@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './TestimoCard.css'
 const TestimoCard = (props) => {
   return (
     <div className='testimo-card'>
