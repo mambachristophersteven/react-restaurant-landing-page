@@ -16,7 +16,7 @@ const AboutSection = () => {
         <div className="right">
             <p className="section-heading">about</p>
             <p className="section-header">Food Is An Important Part Of A Balanced Diet</p>
-            <p className="section-text">Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui magnis facilisis at fringilla quam. <br />Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.</p>
+            <p className="section-text">Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui magnis facilisis at fringilla quam. <br /> <br />Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.</p>
             
             <div className="buttons">
                 <Button content= 'learn more' image = {arrow}/>
