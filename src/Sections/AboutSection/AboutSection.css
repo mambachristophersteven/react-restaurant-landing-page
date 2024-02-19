@@ -1,0 +1,63 @@
+.about-section{
+    width: 100%;
+    display: flex;
+    gap: 70px;
+}
+
+.left{
+    flex: 1;
+    position: relative;
+}
+
+.left img{
+    width: 120%;
+    position: absolute;
+    left: -16%;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-heading{
+    font-family: monBold;
+    text-transform: capitalize;
+    color: var(--primary);
+    font-size: 25px;
+}
+
+.section-header{
+    font-size: 60px;
+    font-family: monBold;
+    color: var(--main-text);
+}
+
+.section-text{
+    font-size: 25px;
+    color: var(--small-text);
+    font-family: monSemi;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play-text{
+    display: flex;
+    width: 200%;
+    font-size: 25px;
+    color: var(--minor-text);
+    font-family: monSemi;
+    text-transform: capitalize;
+}
