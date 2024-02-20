@@ -30,3 +30,13 @@
 .right img{
     width: 110%;
 }
+
+@media screen and (max-width: 1420px){
+    .home-heading{
+        font-size: 40px;
+    }
+
+    .home-text{
+        font-size: 17px;
+    }
+}
