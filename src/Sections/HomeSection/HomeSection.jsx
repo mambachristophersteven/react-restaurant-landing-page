@@ -3,7 +3,6 @@ import './HomeSection.css'
 import HomeBanner from '../../Components/HomeBanner/HomeBanner'
 import Button from '../../Components/Button/Button'
 import home_banner from '../../Assets/homepage-image.png'
-import arrow from '../../Assets/arrow.svg'
 
 
 const HomeSection = () => {
