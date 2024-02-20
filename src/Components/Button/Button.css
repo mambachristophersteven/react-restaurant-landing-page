@@ -1,4 +1,4 @@
-.button button{
+button{
     width: 280px;
     display: flex;
     padding: 5px;
@@ -18,4 +18,15 @@
 
 .button button img{
     width: 30px;
+}
+
+@media screen and (max-width: 1420px){
+    .button button img{
+        width: 20px;
+    }
+    button{
+        width: 187px;
+        font-size: 17px;
+        padding: 3px;
+    }
 }

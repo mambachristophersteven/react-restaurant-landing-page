@@ -13,7 +13,10 @@ const HomeSection = () => {
       <div className="left">
           <p className="home-heading">Your Favourite Food Delivered Hot & <br />Fresh</p>
           <p className="home-text">Healthy switcher chefs do all the prep work, like  peeding, chopping & marinating, so you can cook a fresh food.</p>
-          <Button content = 'order now' image ={arrow} />
+          <div className="button">
+            <Button content = 'order now' />
+
+          </div>
       </div>
       <div className="right">
           <img src={home_banner} alt="" />
