@@ -1,0 +1,27 @@
+.footer{
+    width: 80%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.foodie-name{
+    font-family: reemMedium;
+    font-size: 30px;
+    color: var(--footer-text);
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
