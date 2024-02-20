@@ -16,6 +16,7 @@
 .nav-menu{
     width: 55%;
 }
+
 .nav-menu ul{
     display: flex;
     list-style: none;
@@ -30,6 +31,7 @@
     color: var(--nav-text);
     cursor: pointer;
 }
+
 .nav-menu ul li button{
     background: #fff;
     border: none;
@@ -41,4 +43,24 @@
     font-family: monBold;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1520px){
+    .nav-menu{
+        width: 70%;
+    }
+    .logo-text{
+        font-size: 30px;
+    }
+    .nav-menu ul li{
+        font-size: 14px;
+    }
+    .nav-menu ul li img{
+        width: 30px;
+    }
+    .nav-menu ul li button{
+        font-size: 14px;
+        width: 160px;
+        padding: 15px;
+    }
 }
