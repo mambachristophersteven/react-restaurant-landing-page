@@ -3,8 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: self-start;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .footer-left{
@@ -44,4 +44,20 @@
     font-size: 20px;
     color: var(--main-text);
     text-transform: capitalize;
+}
+
+@media screen and (max-width: 1410px){
+    .foodie-name{
+        font-size: 20px;
+    }
+    .social-media{
+        gap: 18px;
+    }
+    .social-media img{
+        width: 30px;
+    }
+    .footer-link{
+        font-size: 13px;
+    }
+
 }
