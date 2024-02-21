@@ -12,9 +12,19 @@
     flex-direction: column;
     width: 100%;
 }
-.section-text{
+.testimo-section .section-header{
+    text-align: center;
+}
+
+.testimo-section .section-text{
     text-align: center;
     font-size: 25px;
     color: var(--small-text);
     font-family: monSemi;
+}
+
+@media screen and (max-width:1410px){
+    .testimo-section .section-text{
+        font-size: 17px;
+    }
 }
