@@ -10,7 +10,7 @@
 }
 
 .left img{
-    width: 120%;
+    width: 110%;
     position: absolute;
     left: -16%;
 }
@@ -33,6 +33,7 @@
     font-size: 60px;
     font-family: monBold;
     color: var(--main-text);
+    width: 90%;
 }
 
 .about-section .section-text{
@@ -61,4 +62,14 @@
     color: var(--minor-text);
     font-family: monSemi;
     text-transform: capitalize;
+}
+
+@media screen and (max-width:1410px){
+    .section-heading{
+        font-size: 17px;
+    }
+    .section-header{
+        font-size: 40px;
+        
+    }
 }
