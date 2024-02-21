@@ -28,3 +28,20 @@
     color: var(--minor-text);
     text-align: center;
 }
+
+@media screen and (max-width: 1410px){
+    .progress-card{
+        width: 25%;
+        height: 290px;
+        gap: 33px;
+    }
+    .progress-card img{
+        width: 86px;
+    }
+    .card-heading{
+        font-size: 20px;
+    }
+    .card-content{
+        font-size: 13px;
+    }
+}
