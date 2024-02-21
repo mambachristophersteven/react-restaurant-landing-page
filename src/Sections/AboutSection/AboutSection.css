@@ -69,7 +69,9 @@
         font-size: 17px;
     }
     .section-header{
-        font-size: 40px;
-        
+        font-size: 40px; 
+    }
+    .about-section .section-text{
+        font-size: 17px;
     }
 }
