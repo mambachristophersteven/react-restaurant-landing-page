@@ -74,4 +74,16 @@
     .about-section .section-text{
         font-size: 17px;
     }
+    .play-text{
+        font-size: 14px;
+    }
+    .play{
+        gap: 5px;
+    }
+    .play img{
+        width: 60px;
+    }
+    .buttons{
+        gap: 20px;
+    }
 }
