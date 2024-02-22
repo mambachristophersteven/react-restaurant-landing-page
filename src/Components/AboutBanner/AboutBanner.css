@@ -3,3 +3,9 @@
     left: 0;
     z-index: -1;
 }
+
+@media screen and (max-width:1410px){
+    .about-banner img{
+        width: 20vw;
+    }
+}
