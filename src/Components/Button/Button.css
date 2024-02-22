@@ -14,6 +14,8 @@ button{
     font-size: 25px;
     font-family: monBold;
     cursor: pointer;
+    padding: 30px;
+    height: 90px;
 }
 
 .button button img{
@@ -28,5 +30,6 @@ button{
         width: 187px;
         font-size: 17px;
         padding: 3px;
+        height: 59px;
     }
 }
