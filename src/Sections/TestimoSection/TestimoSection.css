@@ -11,6 +11,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    gap: 50px;
 }
 .testimo-section .section-header{
     text-align: center;
