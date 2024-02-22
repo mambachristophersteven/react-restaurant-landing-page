@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     gap: 70px;
+    border: 2px solid red;
 }
 
 .left{
@@ -20,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 60px;
 }
 
 .section-heading{
