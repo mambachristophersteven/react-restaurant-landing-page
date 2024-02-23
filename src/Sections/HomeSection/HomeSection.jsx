@@ -11,8 +11,7 @@ const HomeSection = () => {
           <p className="home-heading">Your Favourite Food Delivered Hot & <br />Fresh</p>
           <p className="home-text">Healthy switcher chefs do all the prep work, like  peeding, chopping & marinating, so you can cook a fresh food.</p>
           <div className="button">
-            <Button content = 'order now' />
-
+          <Button content = 'order now' />
           </div>
       </div>
       <div className="right">
