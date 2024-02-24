@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import cart from '../../Assets/shopping-cart.svg'
+import menu_svg from '../../Assets/menu.svg'
 
 const Navbar = () => {
   return (
@@ -19,6 +20,9 @@ const Navbar = () => {
           </li>
           <li><button>booking now</button></li>
         </ul>
+      </div>
+      <div className="menu-icon">
+        <img src={menu_svg} alt="" />
       </div>
     </div>
   )
