@@ -41,3 +41,10 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width: 760px){
+    .testimo-card{
+        width: 80vw;
+        padding: 20px 0px;
+    }
+}
