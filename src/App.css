@@ -13,4 +13,9 @@
   background-size: contain;
 }
 
+@media screen and (max-width: 768px){
+  .app{
+    background-image: url(./Assets/homepage-mobile.png);
+  }
+}
 
