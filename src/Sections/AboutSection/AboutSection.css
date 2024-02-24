@@ -89,8 +89,23 @@
     }
 }
 
-@media screen and (max-width:1410px){
+@media screen and (max-width:760px){
     .about-section{
         flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .left img{
+        width: 110%;
+        position:relative;
+        left: 0;
+    }
+
+    .right{
+        text-align: center;
+        align-items: center;
+    }
+    .about-section .section-text{
+        text-align: center;
     }
 }
