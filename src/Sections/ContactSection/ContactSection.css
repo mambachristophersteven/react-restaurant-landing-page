@@ -70,6 +70,7 @@ form input{
         background: none;
         gap: 20px;
     }
+    
     form input{
         background: var(--white);
         width: 120%;
