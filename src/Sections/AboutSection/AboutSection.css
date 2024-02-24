@@ -88,3 +88,9 @@
         gap: 20px;
     }
 }
+
+@media screen and (max-width:1410px){
+    .about-section{
+        flex-direction: column-reverse;
+    }
+}
