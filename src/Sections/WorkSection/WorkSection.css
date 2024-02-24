@@ -34,3 +34,10 @@
         font-size: 17px;
     }
 }
+
+@media screen and (max-width:1410px){
+    .bottom{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
