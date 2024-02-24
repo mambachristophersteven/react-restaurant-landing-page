@@ -52,3 +52,28 @@ form input{
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 1410px){
+    .contact-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-bottom form{
+        width: 80vw;
+        flex-direction: column;
+        background: none;
+        gap: 20px;
+    }
+    form input{
+        background: var(--white);
+        width: 120%;
+        text-align: center;
+        padding: 20px;
+    }
+}
