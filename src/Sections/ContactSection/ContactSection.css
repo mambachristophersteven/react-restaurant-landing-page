@@ -58,6 +58,7 @@ form input{
         flex-direction: column;
         align-items: center;
     }
+    
     .contact-bottom{
         display: flex;
         flex-direction: column;
