@@ -69,21 +69,27 @@
     .section-heading{
         font-size: 17px;
     }
+    
     .section-header{
         font-size: 40px; 
     }
+
     .about-section .section-text{
         font-size: 17px;
     }
+
     .play-text{
         font-size: 14px;
     }
+
     .play{
         gap: 5px;
     }
+
     .play img{
         width: 60px;
     }
+
     .buttons{
         gap: 20px;
     }
@@ -95,6 +101,7 @@
         text-align: center;
         align-items: center;
     }
+
     .left img{
         width: 110%;
         position:relative;
@@ -105,7 +112,7 @@
         text-align: center;
         align-items: center;
     }
-    
+
     .about-section .section-text{
         text-align: center;
     }
