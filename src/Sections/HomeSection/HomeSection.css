@@ -52,12 +52,13 @@
     .left{
         align-items: center;
     }
-    
+
     .right{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    
     .right img{
         width: 100%;
     }
