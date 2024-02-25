@@ -48,10 +48,11 @@
         text-align: center;
         gap: 20px;
     }
-    
+
     .left{
         align-items: center;
     }
+    
     .right{
         display: flex;
         flex-direction: column;
