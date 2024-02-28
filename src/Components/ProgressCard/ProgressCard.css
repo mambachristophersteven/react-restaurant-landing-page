@@ -29,6 +29,8 @@
     text-align: center;
 }
 
+
+
 @media screen and (max-width: 1410px){
     .progress-card{
         width: 25%;
@@ -46,6 +48,19 @@
     
     .card-content{
         font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .progress-card{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:800px){
+    .progress-card{
+        width: 80vw;
+        padding: 20px 0px;
     }
 }
 
