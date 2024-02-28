@@ -53,7 +53,7 @@ form input{
     }
 }
 
-@media screen and (max-width: 1410px){
+@media screen and (max-width: 760px){
     .contact-section{
         flex-direction: column;
         align-items: center;
