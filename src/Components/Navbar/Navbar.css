@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px 10px;
+    border: 2px solid blue;
 }
 
 .logo-text{
@@ -49,6 +50,10 @@
     display: none;
 }
 
+.mobile-popup{
+    display: none;
+}
+
 @media screen and (max-width: 1420px){
     .nav-menu{
         width: 70%;
@@ -84,5 +89,14 @@
     
     .menu-icon img{
         width: 30px;
+    }
+    .mobile-popup{
+        position: absolute;
+        display: flex;
+        border: 2px solid red;
+        width: 100vw;
+        height: 100vh;
+        left: 0;
+        top: 0;
     }
 }

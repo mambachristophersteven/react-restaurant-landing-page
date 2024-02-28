@@ -2,6 +2,8 @@ import React from 'react'
 import './Navbar.css'
 import cart from '../../Assets/shopping-cart.svg'
 import menu_svg from '../../Assets/menu.svg'
+import popup_image from '../../Assets/mobile-popup.png'
+import close_icon from '../../Assets/closr-icon.svg'
 
 const Navbar = () => {
   return (
@@ -23,6 +25,12 @@ const Navbar = () => {
       </div>
       <div className="menu-icon">
         <img src={menu_svg} alt="" />
+      </div>
+      <div className="mobile-popup">
+        <div className="mobile-top">
+          <img src={popup_image} alt="" />
+          <img src={close_icon} alt="" />
+        </div>
       </div>
     </div>
   )
