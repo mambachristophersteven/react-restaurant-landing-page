@@ -43,6 +43,9 @@ const Navbar = () => {
             <li><button>booking now</button></li>
           </ul>
         </div>
+        <div className="mobile-logo">
+          <p className="mobile-logo-text">FOODIE</p>
+      </div>
       </div>
     </div>
   )
