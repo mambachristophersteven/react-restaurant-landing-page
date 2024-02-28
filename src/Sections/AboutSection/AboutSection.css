@@ -117,3 +117,11 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width:380px){
+    .buttons{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
