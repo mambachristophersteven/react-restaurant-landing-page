@@ -93,10 +93,25 @@
     .mobile-popup{
         position: absolute;
         display: flex;
-        border: 2px solid red;
+        flex-direction: column;
         width: 100vw;
         height: 100vh;
         left: 0;
         top: 0;
+        background: var(--background);
+        z-index: 3;
+    }
+    .mobile-top{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+    .mobile-top img:first-child{
+        width: 60vw;
+    }
+    .mobile-top img:last-child{
+        width: 20px;
     }
 }
