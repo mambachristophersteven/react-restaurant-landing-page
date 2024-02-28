@@ -31,6 +31,18 @@ const Navbar = () => {
           <img src={popup_image} alt="" />
           <img src={close_icon} alt="" />
         </div>
+        <div className="mobile-links">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>testimonials</li>
+            <li>contact</li>
+            <li>
+              <img src={cart} alt="" />
+            </li>
+            <li><button>booking now</button></li>
+          </ul>
+        </div>
       </div>
     </div>
   )
