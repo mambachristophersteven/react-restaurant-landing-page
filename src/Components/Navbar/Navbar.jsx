@@ -9,11 +9,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   function openBox(){
-    console.log('open');
+    // console.log('open');
     setOpen(true);
   }
   function closeBox(){
-    console.log('close');
+    // console.log('close');
     setOpen(false);
   }
   return (
