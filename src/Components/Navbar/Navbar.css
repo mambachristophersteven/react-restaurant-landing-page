@@ -139,4 +139,9 @@
         color: var(--nav-text);
         text-transform: capitalize;
     }
+    .mobile-logo-text{
+        font-family: reemMedium;
+        color: var(--primary);
+        font-size: 38px;
+    }
 }
