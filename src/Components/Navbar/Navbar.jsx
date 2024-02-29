@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import cart from '../../Assets/shopping-cart.svg'
 import menu_svg from '../../Assets/menu.svg'
@@ -6,6 +6,14 @@ import popup_image from '../../Assets/mobile-popup.png'
 import close_icon from '../../Assets/closr-icon.svg'
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
+  function openBox(){
+    console.log('open');
+  }
+  function closeBox(){
+    console.log('close');
+  }
   return (
     <div className='navbar'>
       <div className="logo">
