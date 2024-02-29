@@ -93,12 +93,15 @@
         position: fixed;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 50px;
         width: 100vw;
         height: 100vh;
         left: 0;
         top: 0;
         background: var(--background);
         z-index: 3;
+        text-align: center;
     }
     .mobile-top{
         display: flex;
@@ -112,5 +115,29 @@
     }
     .mobile-top img:last-child{
         width: 20px;
+    }
+    .mobile-links{
+        border: 2px solid red;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        padding: 10px 0px;
+    }
+    .mobile-links ul{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: inherit;
+    }
+
+    .mobile-links ul li{
+        font-size: 21px;
+        font-family: monBold;
+        color: var(--nav-text);
+        text-transform: capitalize;
     }
 }
