@@ -32,12 +32,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="menu-icon">
-        <img src={menu_svg} alt="" />
+        <img onClick={openBox} src={menu_svg} alt="" />
       </div>
       <div className="mobile-popup">
         <div className="mobile-top">
           <img src={popup_image} alt="" />
-          <img src={close_icon} alt="" />
+          <img onClick={closeBox} src={close_icon} alt="" />
         </div>
         <div className="mobile-links">
           <ul>
